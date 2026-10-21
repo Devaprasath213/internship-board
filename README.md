@@ -1,8 +1,7 @@
 # Responsive Internship Board
 
 An accessible, framework-free internship listing built with semantic HTML, responsive CSS and vanilla JavaScript.
-**Live preview:** _paste your GitHub Pages URL here_
-
+**Live preview:** https://devaprasath213.github.io/internship-board/
 ## Short explanation
 
 **Page structure (plan):** skip link → header → `main` containing a search form (`role="search"`), a live result count, error and empty states, and a `ul` of internship cards. Each card is an `article` with a heading, domain, location/mode/openings, skill tags and a Save button.
