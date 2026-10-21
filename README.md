@@ -22,14 +22,13 @@ An accessible, framework-free internship listing built with semantic HTML, respo
 ## Responsive test results (optional upgrade)
 | Width | Layout | No horizontal scroll | Keyboard/focus OK | Notes |
 |---|---|---|---|---|
-| 360px | 1 column | ☐ | ☐ | |
-| 768px | 2 columns | ☐ | ☐ | |
-| 1280px | 3 columns | ☐ | ☐ | |
+| 360px | 1 column | ☑ | ☑ | Cards stack; filter chips wrap; buttons are easy to tap |
+| 768px | 2 columns | ☑ | ☑ | Search and domain filters sit side by side |
+| 1280px | 3 columns | ☑ | ☑ | Content is centred with a max width of 1100px |
 
 _Tick each box after testing in DevTools and add notes._
-
 ## Screenshots
-![Mobile 360px](screenshots/mobile.png)
-![Tablet 768px](screenshots/tab.png)
+![Mobile](screenshots/mobile.png)
+![Tablet](screenshots/tablet.png)
 ![Desktop](screenshots/desktop.png)
 ![Error state](screenshots/error.png)
