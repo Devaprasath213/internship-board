@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internship Board</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#results">Skip to results</a>
+<header class="site-header">
+  <h1>Internship Board</h1>
+  <p>Find fictional internships by keyword and domain.</p>
+</header>
+<main>
+  <form class="controls" role="search" id="search-form">
+    <div class="field">
+      <label for="q">Search title, location or skill</label>
+      <input id="q" type="search" autocomplete="off" placeholder="e.g. SQL, Pune">
+    </div>
+    <fieldset class="field">
+      <legend>Domain</legend>
+      <div id="domains" class="chips"></div>
+    </fieldset>
+    <button type="reset" id="clear" class="btn secondary">Clear filters</button>
+  </form>
+
+  <p id="count" class="count" role="status" aria-live="polite"></p>
+  <div id="error" class="state error" role="alert" hidden>
+    <p>Could not load internships. Check your connection or serve the site over http.</p>
+    <button type="button" id="retry" class="btn">Try again</button>
+  </div>
+  <div id="empty" class="state" hidden>
+    <p>No internships match your filters.</p>
+  </div>
+  <ul id="results" class="grid" aria-label="Internship listings" tabindex="-1"></ul>
+</main>
+<footer class="site-footer"><p>All listings are fictional.</p></footer>
+<script src="app.js"></script>
+</body>
+</html>
